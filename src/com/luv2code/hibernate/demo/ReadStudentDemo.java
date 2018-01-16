@@ -36,7 +36,7 @@ public class ReadStudentDemo {
 			session.getTransaction().commit();
 			
 			// retrieve the object
-			// find out hte student's id: primary key
+			// find out the student's id: primary key
 			System.out.println("Saved student, Generated id: " + tempStudent.getId());
 			
 			// now get a new session and start transaction
