@@ -10,6 +10,7 @@ import com.luv2code.hibernate.demo.entity.Student;
 
 public class QueryStudentDemo {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 
 		// create session factory

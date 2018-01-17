@@ -31,6 +31,8 @@ public class DeleleStudentDemo {
 			
 			Student myStudent = session.get(Student.class, studentId);
 			
+			System.out.println("Student retrieved: " + myStudent);
+			
 			// delete the student, id=1
 //			System.out.println("Deleting student: " + myStudent);
 //			session.delete(myStudent);
